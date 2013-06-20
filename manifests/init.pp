@@ -7,10 +7,10 @@
 # or
 #
 # class {'appcode2':
-#   version => 2.0, 
+#   version => 2.0,
 # }
 class appcode2 (
-  $version = '2.0',
+  $version = '2.1',
 ) {
   require java
   package { 'AppCode2':
